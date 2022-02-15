@@ -100,7 +100,9 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const CircleAvatar(
+             CircleAvatar(
+
+             // child: Image.asset('images/k.png',),
               radius: 40,
               backgroundColor: Colors.white,
             ),
@@ -108,6 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsetsDirectional.only(
                 //start: 20.0,
                 top: 20,
+                bottom: 5
                 // end: 20,
               ),
               child: Card(
@@ -153,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 15),
+         //   const SizedBox(height: 15),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -228,3 +231,4 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+ 

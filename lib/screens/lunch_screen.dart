@@ -48,10 +48,6 @@ class _LunchScreenState extends State<LunchScreen> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-             SizedBox(height: 20),
-            CircularProgressIndicator(
-              color:Colors.white ,
-            )
           ],
         ),
       ),
